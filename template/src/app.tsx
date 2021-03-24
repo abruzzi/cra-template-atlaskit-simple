@@ -5,11 +5,11 @@ const appStyles = {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-evenly',
-  backgroundColor: '#FAFBFC',
+  backgroundColor: '#fefefe',
 };
 
 const heroImageStyles = {
-  maxWidth: '50%',
+  maxWidth: '36%',
   opacity: 1,
 };
 
