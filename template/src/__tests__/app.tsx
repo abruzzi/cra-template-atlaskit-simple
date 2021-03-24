@@ -3,6 +3,6 @@ import App from "../app";
 
 test("sign up form", async () => {
   const { getByText } = render(<App />);
-  const element = getByText("Create new account");
+  const element = getByText("Create a new account");
   expect(element).toBeDefined();
 });

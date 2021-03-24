@@ -1,15 +1,17 @@
-# cra-template-ads-simple
+# cra-template-atlaskit-simple
 
-To use this template, add `--template ads-simple` when creating a new app with Atlassian Design System packages.
+This template includes a set of common used components from Atlassian Design System to give you a quick taste of how it. For more details and full documentation please visit our [home page](https://design.atlassian.com/).
+
+To use this template, add `--template atlaskit-simple` when creating a new app with create-react-app.
 
 For example:
 
 ```sh
-npx create-react-app my-app --template ads-simple
+npx create-react-app my-app --template atlaskit-simple
 
 # or
 
-yarn create react-app my-app --template ads-simple
+yarn create react-app my-app --template atlaskit-simple
 ```
 
 For more information, please refer to:

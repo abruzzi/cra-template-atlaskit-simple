@@ -31,7 +31,7 @@ const Login = () => (
     style={formContainerStyles}
   >
     <div style={loginFormStyles}>
-      <h2>Create new account</h2>
+      <h2>Create a new account</h2>
       <Form<{ username: string; password: string; remember: boolean }>
         onSubmit={data => {
           return new Promise(resolve => setTimeout(resolve, 2000)).then(() =>
