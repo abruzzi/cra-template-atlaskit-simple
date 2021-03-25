@@ -7,6 +7,7 @@
       "template",
       "atlassian-design-system"
     ],
+    "main": "template.json",
     "description": "The template utilizes Atlassian Design System for Create React App.",
     "repository": {
       "type": "git",
@@ -16,6 +17,9 @@
     "license": "MIT",
     "engines": {
       "node": ">=10"
+    },
+    "publishConfig": {
+      "access": "public"
     },
     "bugs": {
       "url": "https://github.com/abruzzi/cra-template-atlaskit-simple/issues"
