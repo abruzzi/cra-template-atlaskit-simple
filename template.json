@@ -1,7 +1,7 @@
 {
   "package": {
     "dependencies": {
-      "@atlaskit/css-reset": "6.0.0",
+      "@atlaskit/css-reset": "6.0.5",
       "@atlaskit/form": "8.2.2",
       "@atlaskit/button": "15.1.5",
       "@atlaskit/checkbox": "12.0.1",
