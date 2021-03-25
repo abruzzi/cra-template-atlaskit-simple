@@ -1,12 +1,16 @@
 {
   "extends": ["config:base"],
-  "npm": {
-    "fileMatch": ["(^|/)deps.json$"]
-  },
-  "postUpgradeTasks": {
-    "commands": ["node update-deps-in-template.js"],
-    "fileFilters": ["template.json"]
-  },
+  "regexManagers": [
+    {
+      "fileMatch": ["^template.json$"],
+      "matchStringsStrategy": "recursive",
+      "matchStrings": [
+        "\"dependencies\":\\s*\\{[^}]*}",
+        "\"(?<depName>.*)\"[^\"]*:\\s*\"(?<currentValue>.*)\""
+      ],
+      "datasourceTemplate": "npm"
+    }
+  ],
   "automerge": true,
   "major": {
     "automerge": true
