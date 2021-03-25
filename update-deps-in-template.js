@@ -5,6 +5,8 @@ const template = require('./template.json');
 
 template.package.dependencies = deps.dependencies;
     
-fs.writeFile('./template.json', JSON.stringify(template, null, 2), function (err) {
-  if (err) return console.log(err);
-});
+console.log('updating template.json');
+
+fs.writeFileSync('./template.json', JSON.stringify(template, null, 2));
+
+console.log('updated template.json');
