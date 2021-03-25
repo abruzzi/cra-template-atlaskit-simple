@@ -1,9 +1,20 @@
 {
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:base"],
   "npm": {
     "fileMatch": ["(^|/)template.json$"]
   },
-  "prHourlyLimit": 1
+  "automerge": true,
+  "major": {
+    "automerge": true
+  },
+  "minor": {
+    "automerge": true
+  },
+  "prHourlyLimit": 1,
+  "updateNotScheduled": false,
+  "timezone": "Australia/Sydney",
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "masterIssue": true
 }
