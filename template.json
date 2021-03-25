@@ -7,7 +7,7 @@
       "@atlaskit/checkbox": "12.0.1",
       "@atlaskit/textfield": "5.0.1",
       "@atlaskit/toggle": "12.0.0",
-      "@testing-library/jest-dom": "5.11.9",
+      "@testing-library/jest-dom": "5.11.10",
       "@testing-library/react": "11.2.5",
       "@testing-library/user-event": "13.0.13",
       "@types/node": "12.20.6",
