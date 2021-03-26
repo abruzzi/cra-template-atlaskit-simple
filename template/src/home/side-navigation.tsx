@@ -14,7 +14,6 @@ import {
   SideNavigation,
 } from "@atlaskit/side-navigation";
 
-import AppFrame from "./app-frame";
 import SampleFooter from "./sample-footer";
 
 const LanguageSettings = () => {
