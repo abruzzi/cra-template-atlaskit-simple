@@ -2,7 +2,7 @@ import WorkIcon from "@atlaskit/icon/glyph/folder";
 import CustomerIcon from "@atlaskit/icon/glyph/person";
 import SettingsIcon from "@atlaskit/icon/glyph/settings";
 import LanguageIcon from "@atlaskit/icon/glyph/world";
-import { Header } from "@atlaskit/side-navigation";
+
 import {
   ButtonItem,
   LinkItem,
@@ -14,6 +14,7 @@ import {
   SideNavigation,
 } from "@atlaskit/side-navigation";
 
+import SampleHeader from "./sample-header";
 import SampleFooter from "./sample-footer";
 
 const LanguageSettings = () => {
@@ -41,14 +42,18 @@ const LanguageSettings = () => {
   );
 };
 
-const AtlassianSideNavigation = () => {
+const MySideNavigation = () => {
   return (
     <SideNavigation label="project">
       <NavigationHeader>
-        <Header description="Next-gen service desk">NXTGen Industries</Header>
+        <SampleHeader />
       </NavigationHeader>
       <NestableNavigationContent>
         <Section>
+          <ButtonItem iconBefore={<WorkIcon label="" />}>Your work</ButtonItem>
+          <LinkItem href="#" iconBefore={<CustomerIcon label="" />}>
+            Your customers
+          </LinkItem>
           <NestingItem
             id="1"
             iconBefore={<SettingsIcon label="" />}
@@ -59,10 +64,6 @@ const AtlassianSideNavigation = () => {
               <LanguageSettings />
             </Section>
           </NestingItem>
-          <ButtonItem iconBefore={<WorkIcon label="" />}>Your work</ButtonItem>
-          <LinkItem href="#" iconBefore={<CustomerIcon label="" />}>
-            Your customers
-          </LinkItem>
         </Section>
       </NestableNavigationContent>
       <NavigationFooter>
@@ -72,4 +73,4 @@ const AtlassianSideNavigation = () => {
   );
 };
 
-export default AtlassianSideNavigation;
+export default MySideNavigation;

@@ -10,7 +10,10 @@ import { AtlassianIcon, AtlassianLogo } from "@atlaskit/logo";
 import Popup from "@atlaskit/popup";
 import { ButtonItem, PopupMenuGroup, Section } from "@atlaskit/menu";
 import QuestionCircleIcon from "@atlaskit/icon/glyph/question-circle";
-import { colors } from "@atlaskit/theme";
+
+import {History} from 'history';
+
+import fakeAuth from '../fake-auth';
 
 const ProductHomeExample = () => (
   <ProductHome icon={AtlassianIcon} logo={AtlassianLogo} />
@@ -20,10 +23,10 @@ const PopupContents = () => (
   <PopupMenuGroup>
     <Section>
       <ButtonItem
-        description="But what is an Atlassian, anyway?"
+        description="What is this all about?"
         iconBefore={
           <QuestionCircleIcon
-            primaryColor={colors.B300}
+            primaryColor="#0065FF"
             label=""
             size="medium"
           />
@@ -55,17 +58,27 @@ const ExploreDropdown = () => {
     />
   );
 };
-const AtlassianNavigationBar = () => (
+
+const NavigationBar = ({history}: {history: History}) => (
   <div>
     <AtlassianNavigation
       label="site"
       primaryItems={[
-        <PrimaryButton>Issues</PrimaryButton>,
+        <PrimaryButton>Features</PrimaryButton>,
         <ExploreDropdown />,
       ]}
+      renderSignIn={() => 
+        <ButtonItem onClick={() => {
+          fakeAuth.logout(() => {
+            history.push('/login');
+          })
+        }}>
+          Logout
+        </ButtonItem>
+      }
       renderProductHome={ProductHomeExample}
     />
   </div>
 );
 
-export default AtlassianNavigationBar;
+export default NavigationBar;
