@@ -1,12 +1,11 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
 import '@atlaskit/css-reset';
-
+import { BrowserRouter as Router} from "react-router-dom";
 import App from './app';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Router>
     <App />
-  </React.StrictMode>,
+  </Router>,
   document.getElementById('root')
 );
