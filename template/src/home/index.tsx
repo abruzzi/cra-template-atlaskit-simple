@@ -9,8 +9,6 @@ type HomeProps = {
 }
 
 const Home = ({ history }: HomeProps) => {
-  console.log(fakeAuth.isAuthenticated);
-
   if(!fakeAuth.isAuthenticated) {
     return <Redirect to="/login" />
   }
