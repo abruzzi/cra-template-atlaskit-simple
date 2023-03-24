@@ -6,7 +6,7 @@
       "@atlaskit/form": "8.8.4",
       "@atlaskit/menu": "^1.0.0",
       "@atlaskit/icon": "21.11.5",
-      "@atlaskit/side-navigation": "^0.8.3",
+      "@atlaskit/side-navigation": "^1.0.0",
       "@atlaskit/button": "16.5.7",
       "@atlaskit/checkbox": "12.4.6",
       "@atlaskit/textfield": "5.3.6",
