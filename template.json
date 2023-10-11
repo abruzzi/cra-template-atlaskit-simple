@@ -4,7 +4,7 @@
       "@atlaskit/atlassian-navigation": "^2.0.0",
       "@atlaskit/css-reset": "6.5.4",
       "@atlaskit/form": "8.11.12",
-      "@atlaskit/menu": "^1.0.0",
+      "@atlaskit/menu": "^2.0.0",
       "@atlaskit/icon": "21.12.7",
       "@atlaskit/side-navigation": "^2.0.0",
       "@atlaskit/button": "16.10.2",
