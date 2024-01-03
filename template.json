@@ -11,7 +11,7 @@
       "@atlaskit/checkbox": "13.0.1",
       "@atlaskit/textfield": "6.0.0",
       "@atlaskit/theme": "12.6.2",
-      "@testing-library/jest-dom": "6.1.6",
+      "@testing-library/jest-dom": "6.2.0",
       "@testing-library/react": "14.1.2",
       "@testing-library/user-event": "14.5.2",
       "@types/node": "20.10.6",
