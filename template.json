@@ -8,7 +8,7 @@
       "@atlaskit/icon": "22.1.1",
       "@atlaskit/side-navigation": "^3.0.0",
       "@atlaskit/button": "17.7.0",
-      "@atlaskit/checkbox": "13.1.0",
+      "@atlaskit/checkbox": "13.1.1",
       "@atlaskit/textfield": "6.1.0",
       "@atlaskit/theme": "12.6.5",
       "@testing-library/jest-dom": "6.4.2",
