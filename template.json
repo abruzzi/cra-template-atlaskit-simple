@@ -9,7 +9,7 @@
       "@atlaskit/side-navigation": "^3.0.0",
       "@atlaskit/button": "19.2.1",
       "@atlaskit/checkbox": "13.7.1",
-      "@atlaskit/textfield": "6.5.0",
+      "@atlaskit/textfield": "6.5.1",
       "@atlaskit/theme": "12.12.0",
       "@testing-library/jest-dom": "6.4.8",
       "@testing-library/react": "16.0.0",
