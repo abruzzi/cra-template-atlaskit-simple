@@ -20,7 +20,7 @@
       "@types/jest": "29.5.13",
       "@types/react-router-dom": "^5.1.7",
       "react-router-dom": "^6.0.0",
-      "typescript": "5.6.2",
+      "typescript": "5.6.3",
       "styled-components": "6.1.13"
     },
     "eslintConfig": {
