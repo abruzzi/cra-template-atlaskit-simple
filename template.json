@@ -3,7 +3,7 @@
     "dependencies": {
       "@atlaskit/atlassian-navigation": "^4.0.0",
       "@atlaskit/css-reset": "6.11.2",
-      "@atlaskit/form": "10.5.8",
+      "@atlaskit/form": "10.5.9",
       "@atlaskit/menu": "^2.0.0",
       "@atlaskit/icon": "22.22.0",
       "@atlaskit/side-navigation": "^3.0.0",
