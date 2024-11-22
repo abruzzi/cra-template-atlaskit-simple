@@ -19,7 +19,7 @@
       "@types/react-dom": "18.3.1",
       "@types/jest": "29.5.14",
       "@types/react-router-dom": "^5.1.7",
-      "react-router-dom": "^6.0.0",
+      "react-router-dom": "^7.0.0",
       "typescript": "5.6.3",
       "styled-components": "6.1.13"
     },
