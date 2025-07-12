@@ -10,7 +10,7 @@
       "@atlaskit/button": "23.2.6",
       "@atlaskit/checkbox": "17.1.7",
       "@atlaskit/textfield": "8.0.7",
-      "@atlaskit/theme": "18.0.3",
+      "@atlaskit/theme": "19.0.0",
       "@testing-library/jest-dom": "6.6.3",
       "@testing-library/react": "16.3.0",
       "@testing-library/user-event": "14.6.1",
