@@ -2,7 +2,7 @@
   "package": {
     "dependencies": {
       "@atlaskit/atlassian-navigation": "^6.0.0",
-      "@atlaskit/css-reset": "8.4.4",
+      "@atlaskit/css-reset": "8.4.6",
       "@atlaskit/form": "17.2.2",
       "@atlaskit/menu": "^11.0.0",
       "@atlaskit/icon": "37.7.2",
